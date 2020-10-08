@@ -11,3 +11,18 @@
         width: calc(100% - 2 * 48px);
     }
 }
+@media screen and (max-width: 1279px) {
+    .page__container {
+        width: calc(100% - 2 * 48px);
+    }
+}
+@media screen and (max-width: 1279px) {
+    .page__container {
+        width: calc(100% - 2 * 24px);
+    }
+}
+@media screen and (max-width: 1279px) {
+    .page__container {
+        width: calc(100% - 2 * 16px);
+    }
+}

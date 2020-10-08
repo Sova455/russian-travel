@@ -1,4 +1,11 @@
 .page {
   font-family:'Inter';  
-  
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #2A2C2F;
+    color: #ffffff;
+    font-size: 100%;
+    overflow-x: hidden; 
+    overflow-y: scroll;
 }

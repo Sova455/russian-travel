@@ -4,18 +4,18 @@
     justify-content: left;
     max-width: 690px;
     width: 100%;
-    margin-top:92px ;
+    margin-top:92px;
 
 }
 @media screen and (max-width: 769px) {
     .intro {
-        margin-top:88px ;
+        margin-top:88px;
          
      }
    }
    @media screen and (max-width: 320px) {           
     .intro {
-        margin-top:64px ;
+        margin-top:64px;
          
      }
    }

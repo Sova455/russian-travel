@@ -5,7 +5,7 @@
  
  @media screen and (max-width: 320px) {
     .intro__title {
-         margin: 64px 16px 0 16px ;
+         margin: 64px 16px 0 16px;
          font-size: 32px;
          width: 288px;
          height: 70px;

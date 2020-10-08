@@ -6,13 +6,12 @@
     width: 720px;
     max-height: 200px;
     margin-top: 48px;
-    width: 100%;
     
 }
 @media screen and (max-width: 1279px) {
 
     .lead__title {
-        width: calc(100% - 2 * 280px) ;       
+        width: calc(100% - 2 * 280px);       
  }
    }
  

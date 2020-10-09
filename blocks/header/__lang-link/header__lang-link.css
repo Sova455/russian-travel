@@ -4,6 +4,8 @@
     margin-right:18px;
     text-decoration: none;
     color: white;
+    max-width:30px;
+    max-height:28px;
 }
 
 .header__lang-link:last-child {
@@ -15,7 +17,8 @@ text-decoration: underline;
 
 @media screen and (max-width: 320px) {
         .header__lang-link {
-            width: 22px;
+         max-width: 22px;
+        max-height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

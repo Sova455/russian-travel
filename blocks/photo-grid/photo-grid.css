@@ -4,24 +4,24 @@
 }
 @media screen and (max-width: 1279px) {
     .photo-grid {
-     min-width: 1184px;
+     max-width: 1184px;
 }
   }
 
 @media screen and (max-width: 1023px) {
     .photo-grid{
-       min-width: 928px;
+       max-width: 928px;
     
 }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid {
-  min-width: 720px;
+  max-width: 720px;
     }
 }
 @media screen and (max-width: 320px) {
     .photo-grid {
-        min-width: 288px;
+        max-width: 288px;
     }
   }

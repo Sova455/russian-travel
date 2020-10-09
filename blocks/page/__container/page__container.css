@@ -7,16 +7,16 @@
 
 @media screen and (max-width: 1023px) {
     .page__container {
-        min-width: 928px;
+        max-width: 928px;
     }
 }
 @media screen and (max-width: 767px) {
     .page__container {
-        min-width: 720px;
+        max-width: 720px;
     }
 }
 @media screen and (max-width: 288px) {
     .page__container {
-        min-width: 288px;
+        max-width: 288px;
     }
 }

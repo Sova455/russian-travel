@@ -9,3 +9,6 @@
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.page::-webkit-scrollbar {
+  width:0px;
+}

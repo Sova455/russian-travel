@@ -3,7 +3,7 @@
     font-size:12px;
     margin: 0;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .intro__list {
          font-size: 12px;
          max-width: 720px;

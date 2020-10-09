@@ -13,17 +13,17 @@
     margin-top: 245px;
     margin-bottom:0 ;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .cover__title {
         margin-top:195px;
     }
 }
-@media screen and (max-width: 319px) {
+
+@media screen and (max-width: 768px) {
     .cover__title {
         margin-top:115px;
     }
-  }
+}
 @media screen and (max-width: 320px) {
     .cover__title {
         margin-top: 33px;

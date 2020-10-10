@@ -1,5 +1,5 @@
 .page {
-  font-family:'Inter';
+  font-family: "Inter", Arial, sans-serif;
   display: flex;
     min-height: 100vh;
     flex-direction: column;

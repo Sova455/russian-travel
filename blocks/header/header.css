@@ -7,20 +7,29 @@
     max-height: 52px;
 }
 
+@media screen and (max-width: 1279px) {
+    .header {
+    margin-bottom:56px;
+
+    }
+}
 @media screen and (max-width: 1023px) {
     .header {
+
         max-width: 928px;
     }
 }
 @media screen and (max-width: 767px) {
     .header {
+        
         max-width: 720px;
     }
 }
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .header {
-        margin-top: 16px;
-        max-width: 288px;
-        max-height: 42px;
+        margin-top:16px;
+        margin-bottom:48px;
+        max-width:288px;
+        min-height: 42px;
     }
   }

@@ -2,20 +2,36 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    max-width: 690px;
-    width: 100%;
-    margin-top:92px;
+   
+    margin-top:88px;
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        margin-top:88px;
+        max-width: 690px;
+       
          
      }
    }
+@media screen and (max-width: 1023px) {
+    .intro {
+        max-width: 690px;
+       
+         
+     }
+   }
+   @media screen and (max-width: 767px) {
+    .intro {
+         
+         
+     }
+   }
+
    @media screen and (max-width: 320px) {           
     .intro {
+        max-width: 288px;
         margin-top:64px;
-         
+       
+     
      }
    }

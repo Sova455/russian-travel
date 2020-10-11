@@ -2,27 +2,27 @@
     display: grid;
     gap: 80px;
     max-width: 984px;
-    margin: 0 148px;
+    
+}
 
+@media screen and (max-width: 1279px) {
+    .places {
+   max-width: 928px;
+   
+}
 }
 
 @media screen and (max-width: 1023px) {
     .places {
-   max-width: 928px;
-   margin: 0 48px;
-}
+        max-width: 720px;
+       
+    }
 }
 
 @media screen and (max-width: 767px) {
     .places {
-        max-width: 720px;
-        margin: 0 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .places {
         max-width: 320px;
-        margin: 0;
+        gap:48px;
+        
     }
   }

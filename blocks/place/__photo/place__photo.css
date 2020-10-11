@@ -5,13 +5,8 @@
     
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     .place__photo  {
         grid-column-start: 1;
-    }
-}
-@media screen and (max-width: 320px) {
-    .place__photo  {
-        min-width: 320px;
     }
 }

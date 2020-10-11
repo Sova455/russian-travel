@@ -7,11 +7,12 @@
     align-items: center;
     position: relative;
      margin:92px 0;
+     width: 1184px;
+     height: 740px;
     
     
     
 }
-
 .cover:before {
     content: '';
     position: absolute;
@@ -25,28 +26,32 @@
 }
 
 .cover:hover:before {
-    opacity: 0.8;
+    opacity: 1;
 }
 .cover:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
     .cover {
-     max-width: 1024px;
-    margin: 92px 0;
+        width: 1024px;
+        height: 640px;
+    
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .cover {
-        max-width: 768px;
-    margin: 88px 0;
+       width:768px;
+        height: 480px;
+        
+   
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover {
-    max-width: 320px;
+    width: 320px;
+    height:200px;
     margin: 64px 0;
     }
   }

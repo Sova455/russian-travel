@@ -1,33 +1,30 @@
 .intro__list {
+    list-style: none;
     max-width: 720px;
-    margin:0;
-    line-height: 18px;
-    font-size:1 2px;
+    margin: 0;
+    font-size:12px;
     font-weight: 400;
+    padding: 0;
+    
 }
-@media screen and (max-width: 1279px) {
+
+   @media screen and (max-width: 1279px) {
     .intro__list {
-        max-width: 690;
+        width:690;
          
      }
    }
-   @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
-        max-width:690;
-         
+       
+         width: 720px;
+        
      }
    }
 @media screen and (max-width: 767px) {
     .intro__list {
-         font-size: 12px;
-         max-width: 720px;
-        
-     }
-   }
-@media screen and (max-width: 320px) {
-    .intro__list {
-         font-size: 12px;
-         max-width: 288px;
+         
+         width: 288px;
         
      }
    }

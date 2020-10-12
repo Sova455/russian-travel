@@ -1,0 +1,24 @@
+
+.footer__link-list-item {
+  display: inline;
+  
+  margin-right: 18px;
+  margin-left: 0;
+}
+.footer__link-list-item:last-child { 
+  
+  margin-right: 0;
+}
+  
+
+.footer__link-list-item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+  .footer__link-list-item  {
+      width: 186px;
+      margin-bottom: 32px;
+     
+  }
+}

@@ -1,26 +1,24 @@
 .place__description {
-    max-width: 484px;
+    line-height: 29.34px;
+    width: 484px;
     
 }
 @media screen and (max-width: 1279px) {
     .place__description {
-        max-width: 456px;
-        margin: 0 auto;
-        font-size: 18px;
+        width: 456px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place__description {
-        max-width: 352px;
-        margin: 0 auto;
-        font-size: 16px;
+        width: 352px;
+       line-height: 26.08px;
     }
 }
 @media screen and (max-width: 767px) {
     .place__description {
-        max-width: 288px;
-        margin: 0 auto;
-        font-size: 16px;
+        width: 288px;
+       line-height: 26.08px;
+       margin-left: 16px;
     }
 }

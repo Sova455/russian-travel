@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
-    margin-left: 148px;
+    margin-left: 100px;
+
 }
 
 
